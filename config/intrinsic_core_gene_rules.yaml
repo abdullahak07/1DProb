@@ -1,0 +1,93 @@
+# Curation rules for distinguishing acquired mobile ARG cargo from core/
+# intrinsic / biocide / efflux determinants. Used by scripts/curate_arg_calls.py.
+#
+# Matching is case-insensitive substring match on the detected gene name
+# (so 'Ecol_emrE', 'Paer_emrE', 'emrE' all match the 'emre' pattern).
+# Rules are evaluated top-to-bottom; first match wins. Anything that matches
+# no rule defaults to category 'acquired_mobile_ARG' (include = true).
+#
+# Categories:
+#   acquired_mobile_ARG          - horizontally acquired, eligible for mobile analysis
+#   intrinsic_core_gene          - core chromosomal / housekeeping; not mobile cargo
+#   biocide_or_stress_marker     - biocide/disinfectant/integron marker, not classic antibiotic ARG
+#   efflux_or_regulatory_marker  - intrinsic efflux pump / regulator
+#   ambiguous_requires_validation- keep, but flag for external confirmation
+#
+# include_in_mobile_ARG_analysis is False for intrinsic/biocide/efflux,
+# True for acquired and ambiguous.
+
+rules:
+  - pattern: "eptb"
+    category: intrinsic_core_gene
+    reason: "Phosphoethanolamine transferase; core LPS-modification locus (polymyxin context). Chromosomal, not mobile cargo."
+    confidence: high
+
+  - pattern: "ugd"
+    category: intrinsic_core_gene
+    reason: "UDP-glucose 6-dehydrogenase; core housekeeping gene in LPS/polymyxin modification. Chromosomal."
+    confidence: high
+
+  - pattern: "arnt"
+    category: intrinsic_core_gene
+    reason: "4-amino-4-deoxy-L-arabinose transferase; core LPS modification (polymyxin). Chromosomal."
+    confidence: medium
+
+  - pattern: "pmrf"
+    category: intrinsic_core_gene
+    reason: "arn/pmr operon LPS modification; core chromosomal polymyxin-associated locus."
+    confidence: medium
+
+  - pattern: "emre"
+    category: efflux_or_regulatory_marker
+    reason: "Small multidrug resistance (SMR) efflux pump; intrinsic/species-core in many taxa. Chromosomal."
+    confidence: high
+
+  - pattern: "qach"
+    category: biocide_or_stress_marker
+    reason: "Quaternary-ammonium (biocide) efflux; not a classic antibiotic ARG."
+    confidence: high
+
+  - pattern: "qacedelta"
+    category: biocide_or_stress_marker
+    reason: "qacE-delta1; class 1 integron 3'-CS marker. Integron-associated biocide marker, not an antibiotic ARG itself."
+    confidence: high
+
+  - pattern: "qac"
+    category: biocide_or_stress_marker
+    reason: "Quaternary-ammonium-compound resistance (biocide/disinfectant marker)."
+    confidence: medium
+
+  - pattern: "mdt"
+    category: efflux_or_regulatory_marker
+    reason: "Multidrug efflux transporter (mdt family); commonly intrinsic/chromosomal."
+    confidence: medium
+
+  - pattern: "acrb"
+    category: efflux_or_regulatory_marker
+    reason: "AcrAB-TolC RND efflux; intrinsic chromosomal multidrug efflux."
+    confidence: medium
+
+  - pattern: "acra"
+    category: efflux_or_regulatory_marker
+    reason: "AcrAB-TolC RND efflux component; intrinsic chromosomal."
+    confidence: medium
+
+  - pattern: "marr"
+    category: efflux_or_regulatory_marker
+    reason: "mar regulon repressor; intrinsic regulatory locus, not acquired cargo."
+    confidence: medium
+
+  - pattern: "ramr"
+    category: efflux_or_regulatory_marker
+    reason: "Efflux regulator; intrinsic chromosomal."
+    confidence: low
+
+  - pattern: "oqx"
+    category: ambiguous_requires_validation
+    reason: "oqxAB efflux: chromosomal/intrinsic in Klebsiella but plasmid-borne elsewhere. Context-dependent; confirm location."
+    confidence: low
+
+  - pattern: "fosa"
+    category: ambiguous_requires_validation
+    reason: "fosA: often intrinsic/chromosomal in Klebsiella/Enterobacter but can be acquired. Confirm context."
+    confidence: low

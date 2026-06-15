@@ -1,0 +1,317 @@
+# =====================================================================
+# SCALE50 chromosome-only baseline (matched to config_scale50.yaml)
+# Same pipeline settings as the validated SCALE20 run. Block-style YAML.
+# Run:  py -m src.pipeline --config config\config_scale50_chronly.yaml
+# =====================================================================
+
+project_name: probiotic_amr_cargo_scale50_chronly
+output_dir: results_scale50_chronly
+
+fetch:
+  enabled: true
+  full_assembly: false
+  email: your.name@murdoch.edu.au
+  api_key: null
+  genome_dir: data/genomes
+
+catalogues:
+  amr_fasta: data/catalogues/card_nucleotide.fasta
+  replicon_fasta: data/catalogues/replicons.fasta
+  is_fasta: data/catalogues/insertion_sequences.fasta
+  conjugation_fasta: data/catalogues/conjugation.fasta
+
+screen:
+  backend: builtin
+  abricate_db: card
+  min_identity: 95
+  min_coverage: 80
+  collapse_overlaps: true
+  overlap_threshold: 0.8
+
+mge:
+  flank_bp: 5000
+  min_identity: 80
+  min_coverage: 60
+
+compare:
+  identity_threshold: 95
+
+strains:
+  # ---------------- 25 probiotics ----------------
+  - strain_id: L_rhamnosus_GG
+    species: Lacticaseibacillus rhamnosus
+    group: probiotic
+    accession: NC_013198.1
+    product_example: Culturelle
+    qps_listed: "yes"
+  - strain_id: L_acidophilus_NCFM
+    species: Lactobacillus acidophilus
+    group: probiotic
+    accession: NC_006814.3
+    product_example: yogurt cultures
+    qps_listed: "yes"
+  - strain_id: L_plantarum_WCFS1
+    species: Lactiplantibacillus plantarum
+    group: probiotic
+    accession: NC_004567.2
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: L_casei_BL23
+    species: Lacticaseibacillus casei
+    group: probiotic
+    accession: NC_010999.1
+    product_example: Yakult-type
+    qps_listed: "yes"
+  - strain_id: L_reuteri_DSM20016
+    species: Limosilactobacillus reuteri
+    group: probiotic
+    accession: CP000705.1
+    product_example: BioGaia
+    qps_listed: "yes"
+  - strain_id: B_longum_NCC2705
+    species: Bifidobacterium longum
+    group: probiotic
+    accession: NC_004307.2
+    product_example: Align
+    qps_listed: "yes"
+  - strain_id: B_animalis_lactis_AD011
+    species: Bifidobacterium animalis subsp. lactis
+    group: probiotic
+    accession: NC_011835.1
+    product_example: Activia
+    qps_listed: "yes"
+  - strain_id: S_thermophilus_LMG18311
+    species: Streptococcus thermophilus
+    group: probiotic
+    accession: NC_006448.1
+    product_example: yogurt cultures
+    qps_listed: "yes"
+  - strain_id: L_lactis_IL1403
+    species: Lactococcus lactis subsp. lactis
+    group: probiotic
+    accession: NC_002662.1
+    product_example: dairy ferments
+    qps_listed: "yes"
+  - strain_id: B_subtilis_168
+    species: Bacillus subtilis
+    group: probiotic
+    accession: NC_000964.3
+    product_example: spore probiotics
+    qps_listed: "yes"
+  - strain_id: L_bulgaricus_ATCC11842
+    species: Lactobacillus delbrueckii subsp. bulgaricus
+    group: probiotic
+    accession: NC_008054.1
+    product_example: yogurt cultures
+    qps_listed: "yes"
+  - strain_id: L_gasseri_ATCC33323
+    species: Lactobacillus gasseri
+    group: probiotic
+    accession: NC_008530.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: L_johnsonii_NCC533
+    species: Lactobacillus johnsonii
+    group: probiotic
+    accession: NC_005362.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: L_salivarius_UCC118
+    species: Ligilactobacillus salivarius
+    group: probiotic
+    accession: NC_007929.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: B_adolescentis_ATCC15703
+    species: Bifidobacterium adolescentis
+    group: probiotic
+    accession: NC_008618.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: B_bifidum_PRL2010
+    species: Bifidobacterium bifidum
+    group: probiotic
+    accession: NC_014638.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: B_breve_UCC2003
+    species: Bifidobacterium breve
+    group: probiotic
+    accession: NC_020517.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: B_infantis_ATCC15697
+    species: Bifidobacterium longum subsp. infantis
+    group: probiotic
+    accession: NC_011593.1
+    product_example: infant formula
+    qps_listed: "yes"
+  - strain_id: P_pentosaceus_ATCC25745
+    species: Pediococcus pentosaceus
+    group: probiotic
+    accession: NC_008525.1
+    product_example: fermented foods
+    qps_listed: "yes"
+  - strain_id: L_mesenteroides_ATCC8293
+    species: Leuconostoc mesenteroides subsp. mesenteroides
+    group: probiotic
+    accession: NC_008531.1
+    product_example: fermented foods
+    qps_listed: "yes"
+  - strain_id: L_lactis_cremoris_MG1363
+    species: Lactococcus lactis subsp. cremoris
+    group: probiotic
+    accession: NC_009004.1
+    product_example: dairy ferments
+    qps_listed: "yes"
+  - strain_id: L_fermentum_IFO3956
+    species: Limosilactobacillus fermentum
+    group: probiotic
+    accession: NC_010610.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: L_helveticus_DPC4571
+    species: Lactobacillus helveticus
+    group: probiotic
+    accession: NC_010080.1
+    product_example: cheese cultures
+    qps_listed: "yes"
+  - strain_id: L_crispatus_ST1
+    species: Lactobacillus crispatus
+    group: probiotic
+    accession: NC_014106.1
+    product_example: supplements
+    qps_listed: "yes"
+  - strain_id: L_sakei_23K
+    species: Latilactobacillus sakei
+    group: probiotic
+    accession: NC_007576.1
+    product_example: meat starter
+    qps_listed: "yes"
+
+  # ---------------- 25 pathogens / comparators ----------------
+  - strain_id: E_faecium_Aus0004
+    species: Enterococcus faecium
+    group: pathogen
+    accession: NC_017022.1
+    isolation_source: clinical bloodstream VRE vanB
+  - strain_id: E_faecalis_V583
+    species: Enterococcus faecalis
+    group: pathogen
+    accession: NC_004668.1
+    isolation_source: clinical VRE vanB
+  - strain_id: E_faecalis_OG1RF
+    species: Enterococcus faecalis
+    group: pathogen
+    accession: NC_017316.1
+    isolation_source: oral reference strain
+  - strain_id: K_pneumoniae_HS11286
+    species: Klebsiella pneumoniae
+    group: pathogen
+    accession: NC_016845.1
+    isolation_source: clinical ESBL KPC
+  - strain_id: K_pneumoniae_MGH78578
+    species: Klebsiella pneumoniae
+    group: pathogen
+    accession: NC_009648.1
+    isolation_source: clinical
+  - strain_id: E_coli_K12_MG1655
+    species: Escherichia coli
+    group: pathogen
+    accession: NC_000913.3
+    isolation_source: laboratory reference
+  - strain_id: E_coli_O157H7_Sakai
+    species: Escherichia coli O157 H7
+    group: pathogen
+    accession: NC_002695.2
+    isolation_source: clinical EHEC
+  - strain_id: S_enterica_LT2
+    species: Salmonella enterica serovar Typhimurium
+    group: pathogen
+    accession: NC_003197.2
+    isolation_source: reference
+  - strain_id: Shigella_flexneri_2a_301
+    species: Shigella flexneri
+    group: pathogen
+    accession: NC_004337.2
+    isolation_source: clinical
+  - strain_id: Enterobacter_cloacae_ATCC13047
+    species: Enterobacter cloacae subsp. cloacae
+    group: pathogen
+    accession: NC_014121.1
+    isolation_source: clinical
+  - strain_id: Proteus_mirabilis_HI4320
+    species: Proteus mirabilis
+    group: pathogen
+    accession: NC_010554.1
+    isolation_source: clinical
+  - strain_id: C_difficile_630
+    species: Clostridioides difficile
+    group: pathogen
+    accession: NC_009089.1
+    isolation_source: clinical
+  - strain_id: C_perfringens_str13
+    species: Clostridium perfringens
+    group: pathogen
+    accession: NC_003366.1
+    isolation_source: reference
+  - strain_id: S_aureus_NCTC8325
+    species: Staphylococcus aureus
+    group: pathogen
+    accession: NC_007795.1
+    isolation_source: reference
+  - strain_id: S_aureus_N315
+    species: Staphylococcus aureus
+    group: pathogen
+    accession: NC_002745.2
+    isolation_source: clinical MRSA
+  - strain_id: S_aureus_Mu50
+    species: Staphylococcus aureus
+    group: pathogen
+    accession: NC_002758.2
+    isolation_source: clinical VISA
+  - strain_id: L_monocytogenes_EGDe
+    species: Listeria monocytogenes
+    group: pathogen
+    accession: NC_003210.1
+    isolation_source: reference
+  - strain_id: S_agalactiae_2603VR
+    species: Streptococcus agalactiae
+    group: pathogen
+    accession: NC_004116.1
+    isolation_source: clinical
+  - strain_id: P_aeruginosa_PAO1
+    species: Pseudomonas aeruginosa
+    group: pathogen
+    accession: NC_002516.2
+    isolation_source: reference
+  - strain_id: A_baumannii_ATCC17978
+    species: Acinetobacter baumannii
+    group: pathogen
+    accession: NC_009085.1
+    isolation_source: clinical reference
+  - strain_id: S_maltophilia_K279a
+    species: Stenotrophomonas maltophilia
+    group: pathogen
+    accession: NC_010943.1
+    isolation_source: clinical
+  - strain_id: C_jejuni_NCTC11168
+    species: Campylobacter jejuni
+    group: pathogen
+    accession: NC_002163.1
+    isolation_source: clinical enteric
+  - strain_id: H_pylori_26695
+    species: Helicobacter pylori
+    group: pathogen
+    accession: NC_000915.1
+    isolation_source: clinical gastric
+  - strain_id: B_fragilis_NCTC9343
+    species: Bacteroides fragilis
+    group: pathogen
+    accession: NC_003228.3
+    isolation_source: clinical anaerobe
+  - strain_id: V_cholerae_N16961
+    species: Vibrio cholerae
+    group: pathogen
+    accession: NC_002505.1
+    isolation_source: clinical enteric

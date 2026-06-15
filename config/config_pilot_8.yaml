@@ -1,0 +1,99 @@
+# =====================================================================
+# Probiotic AMR-cargo pipeline — REAL RUN config
+#
+# Two ways to run:
+#   (A) Real data  : set fetch.enabled = true  -> genomes download from NCBI
+#   (B) Local data : set fetch.enabled = false -> point each strain at a .fna
+#
+# Backends (screen.backend):
+#   abricate  recommended for real work; bundles CARD/ResFinder/AMRFinder/
+#             PlasmidFinder.  install:  conda install -c bioconda abricate
+#                                       abricate --setupdb
+#   blast     uses blastn against the catalogue FASTAs below (needs ncbi-blast+)
+#   builtin   pure-Python, no external binaries (slower; good for targeted runs)
+# =====================================================================
+
+project_name: probiotic_amr_cargo
+output_dir: results
+
+fetch:
+  enabled: true
+  full_assembly: true
+  email: drhorseman007@gmail.com
+  api_key: null
+  genome_dir: data/genomes
+
+catalogues:
+  amr_fasta: data/catalogues/card_nucleotide.fasta
+  replicon_fasta: data/catalogues/replicons.fasta
+  is_fasta: data/catalogues/insertion_sequences.fasta
+  conjugation_fasta: data/catalogues/conjugation.fasta
+
+screen:
+  backend: builtin
+  abricate_db: card
+  min_identity: 95
+  min_coverage: 80
+  collapse_overlaps: true
+  overlap_threshold: 0.8
+
+mge:
+  flank_bp: 5000
+  min_identity: 80
+  min_coverage: 60
+
+compare:
+  identity_threshold: 95
+
+strains:
+  - strain_id: L_rhamnosus_GG
+    species: "Lactobacillus rhamnosus"
+    group: probiotic
+    accession: NC_013198.1
+    product_example: "Culturelle"
+    qps_listed: "yes"
+
+  - strain_id: L_acidophilus_NCFM
+    species: "Lactobacillus acidophilus"
+    group: probiotic
+    accession: NC_006814.3
+    product_example: "many yogurts"
+    qps_listed: "yes"
+
+  - strain_id: B_longum_NCC2705
+    species: "Bifidobacterium longum"
+    group: probiotic
+    accession: NC_004307.2
+    product_example: "Align"
+    qps_listed: "yes"
+
+  - strain_id: S_thermophilus_LMG
+    species: "Streptococcus thermophilus"
+    group: probiotic
+    accession: NC_006448.1
+    product_example: "yogurt culture"
+    qps_listed: "yes"
+
+  - strain_id: E_faecium_Aus0004
+    species: "Enterococcus faecium"
+    group: pathogen
+    accession: NC_017022.1
+    isolation_source: "clinical VRE"
+
+  - strain_id: K_pneumoniae_HS11286
+    species: "Klebsiella pneumoniae"
+    group: pathogen
+    accession: NC_016845.1
+    isolation_source: "clinical ESBL"
+
+  - strain_id: E_coli_MG1655
+    species: "Escherichia coli"
+    group: pathogen
+    accession: NC_000913.3
+    isolation_source: "reference"
+
+  - strain_id: C_difficile_630
+    species: "Clostridioides difficile"
+    group: pathogen
+    accession: NC_009089.1
+    isolation_source: "clinical"
