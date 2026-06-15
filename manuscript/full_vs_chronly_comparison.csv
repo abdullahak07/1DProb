@@ -1,0 +1,9 @@
+metric,chromosome_only,full_assembly,delta
+arg_loci,338,373,35
+Low,313,315,2
+Medium,21,43,22
+High,4,15,11
+Negligible,0,0,0
+insertion_sequence,1003,1116,113
+plasmid_replicon,0,32,32
+conjugation_marker,0,0,0

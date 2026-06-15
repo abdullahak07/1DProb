@@ -1,0 +1,16 @@
+strain_id,builtin_gene,builtin_identity,builtin_coverage,builtin_contig,builtin_start,builtin_end,drug_class,risk_level,validation_best_hit,validation_identity,validation_coverage,validation_tool,validation_status
+E_faecalis_V583,ErmB,97.99,100.0,NC_004669.1,6333,7079,macrolide,High,ErmB,100.0,100.0,BLAST,confirmed
+E_faecalis_V583,qacH,98.46,100.0,NC_004669.1,8712,9035,unclassified,High,qacH,100.0,100.0,BLAST,confirmed
+E_faecalis_V583,AAC6_Ie_APH2_Ia,100.0,100.0,NC_004669.1,49141,50580,aminoglycoside,High,AAC6_Ie_APH2_Ia,100.0,100.0,BLAST,confirmed
+K_pneumoniae_HS11286,CTX-M-14,100.0,100.0,NC_016838.1,31843,32718,beta-lactam,High,CTX-M-14,100.0,100.0,BLAST,confirmed
+K_pneumoniae_HS11286,CTX-M-14,100.0,100.0,NC_016839.1,82527,83402,beta-lactam,High,CTX-M-14,100.0,100.0,BLAST,confirmed
+K_pneumoniae_MGH78578,APH(3'')-Ib,99.88,100.0,NC_009651.1,12226,13029,aminoglycoside,High,APH(3'')-Ib,100.0,100.0,BLAST,confirmed
+K_pneumoniae_MGH78578,APH(6)-Id,99.88,100.0,NC_009651.1,13029,13865,aminoglycoside,High,APH(6)-Id,100.0,100.0,BLAST,confirmed
+K_pneumoniae_MGH78578,sul2,100.0,100.0,NC_009651.1,18529,19344,sulfonamide,High,sul2,100.0,100.0,BLAST,confirmed
+K_pneumoniae_MGH78578,APH(3')-Ia,100.0,100.0,NC_009651.1,27290,28105,aminoglycoside,High,APH(3')-Ia,100.0,100.0,BLAST,confirmed
+K_pneumoniae_MGH78578,catA1,99.55,100.0,NC_009651.1,66239,66898,phenicol,High,catA1,100.0,100.0,BLAST,confirmed
+Enterobacter_cloacae_ATCC13047,sul2,100.0,100.0,NC_014121.1,3902508,3903323,sulfonamide,High,sul2,100.0,100.0,BLAST,confirmed
+S_aureus_N315,ANT(4')-Ia,99.87,100.0,NC_002745.2,40818,41579,aminoglycoside,High,ANT(4')-Ia,100.0,100.0,BLAST,confirmed
+S_aureus_Mu50,ANT(4')-Ia,99.87,100.0,NC_002758.2,40819,41580,aminoglycoside,High,ANT(4')-Ia,100.0,100.0,BLAST,confirmed
+S_aureus_Mu50,AAC6_Ie_APH2_Ia,100.0,100.0,NC_002774.1,17224,18663,aminoglycoside,High,AAC6_Ie_APH2_Ia,100.0,100.0,BLAST,confirmed
+A_baumannii_ATCC17978,sul2,100.0,100.0,NC_009085.1,798900,799715,sulfonamide,High,sul2,100.0,100.0,BLAST,confirmed
