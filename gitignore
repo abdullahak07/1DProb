@@ -1,0 +1,51 @@
+# ----- large / raw data (re-download from accessions in scale50_genomes.tsv) -----
+data/
+*.fna
+*.fasta
+*.fa
+*.gbff
+*.gb
+
+# ----- development result snapshots (archived to Zenodo, not tracked) -----
+results/                      # generic scratch results dir
+results_CARD_*/
+results_PHASE4_*/
+results_SCALE20*/
+results_FINAL_*/
+results_SOTA_V2_*/
+results_SCALE50_COMPLETE/
+validation/
+validation_FINAL_*/
+scripts_FINAL_*/
+SCALE50_SOTA_v2_FINAL_BACKUP*
+
+# Keep ONLY the canonical result sets used by the paper:
+!results_scale50/
+!results_scale50_chronly/
+!results_sota/
+
+# ----- Python / tooling -----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ----- IDE / OS -----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ----- LaTeX build artefacts -----
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
