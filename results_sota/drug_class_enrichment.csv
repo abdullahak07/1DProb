@@ -1,0 +1,13 @@
+drug_class,pathogen,probiotic
+aminoglycoside,27,1
+beta-lactam,21,0
+fosfomycin,3,0
+glycopeptide,12,0
+lincosamide,2,0
+macrolide,11,1
+phenicol,5,0
+quinolone,2,0
+sulfonamide,5,0
+tetracycline,7,0
+trimethoprim,3,0
+unclassified,262,11

@@ -1,0 +1,374 @@
+strain_id,builtin_gene,builtin_identity,builtin_coverage,builtin_contig,builtin_start,builtin_end,drug_class,risk_level,amrfinder_hit,amrfinder_identity,amrfinder_agree,resfinder_hit,resfinder_identity,resfinder_agree,blast_hit,blast_identity,blast_agree,builtin_recheck,n_tools_confirm,n_tools_conflict,validation_status,validation_note,validation_tool,validation_best_hit
+L_lactis_IL1403,lmrD,100.0,100.0,NC_002662.1,310896,312890,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,mphK,100.0,100.0,NC_000964.3,275838,276758,macrolide,Low,mphK,100.0,True,mph(K),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,mphK
+B_subtilis_168,lmrB,100.0,100.0,NC_000964.3,288653,290086,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,tmrB,100.0,100.0,NC_000964.3,339156,339749,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,vmlR,100.0,100.0,NC_000964.3,604736,606379,unclassified,Low,vmlR,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,vmlR
+B_subtilis_168,Bsub_mprF,100.0,100.0,NC_000964.3,916778,919348,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,ykkC,100.0,100.0,NC_000964.3,1376517,1376855,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,ykkD,100.0,100.0,NC_000964.3,1376855,1377172,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,bmr,99.83,100.0,NC_000964.3,2494656,2495825,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,blt,100.0,100.0,NC_000964.3,2716973,2718175,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_subtilis_168,aadK,100.0,100.0,NC_000964.3,2735682,2736536,aminoglycoside,Low,aadK,100.0,True,aadK,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,aadK
+B_adolescentis_ATCC15703,Bado_rpoB_RIF,100.0,100.0,NC_008618.1,1667064,1670624,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_bifidum_PRL2010,Bbif_ileS_MUP,100.0,100.0,NC_014638.1,1610637,1613960,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecium_Aus0004,dfrG,100.0,100.0,NC_017022.1,68722,69219,trimethoprim,Low,dfrG,100.0,True,dfrG,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,dfrG
+E_faecium_Aus0004,efmA,100.0,100.0,NC_017022.1,558992,560278,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecium_Aus0004,ErmG,99.59,100.0,NC_017022.1,1609617,1610351,macrolide,Low,erm(G),100.0,True,erm(G),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(G)
+E_faecium_Aus0004,mel,95.24,100.0,NC_017022.1,1611879,1613096,unclassified,Low,mef(A),98.28,False,mef(A),95.24,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,mef(A)
+E_faecium_Aus0004,AAC(6')-Ii,99.64,100.0,NC_017022.1,2317638,2318186,aminoglycoside,Low,aac(6')-I,100.0,False,aac(6')-Ii,99.64,True,,,False,confirmed,1,1,confirmed_resfinder,,ResFinder,aac(6')-Ii
+E_faecium_Aus0004,vanX_in_vanB_cl,95.4,100.0,NC_017022.1,2838763,2839371,glycopeptide,Low,vanX-B,100.0,False,VanHBX,98.54,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,vanX-B
+E_faecium_Aus0004,vanB,99.71,100.0,NC_017022.1,2839377,2840405,glycopeptide,Low,vanB,100.0,True,VanHBX,98.54,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,vanB
+E_faecium_Aus0004,vanW_in_vanB_cl,95.65,100.0,NC_017022.1,2841366,2842193,glycopeptide,Low,vanW-B,100.0,False,VanHBX,98.54,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,vanW-B
+E_faecium_Aus0004,vanS_in_vanB_cl,96.35,100.0,NC_017022.1,2843188,2844531,glycopeptide,Low,vanS-B,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,vanS-B
+E_faecalis_V583,dfrE,97.37,100.0,NC_004668.1,1530013,1530507,trimethoprim,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecalis_V583,vanV_in_vanB_cl,100.0,100.0,NC_004668.1,2211933,2212277,glycopeptide,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecalis_V583,vanX_in_vanB_cl,99.67,100.0,NC_004668.1,2212353,2212961,glycopeptide,Low,vanX-B,99.5,False,VanHBX,99.85,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,vanX-B
+E_faecalis_V583,vanB,95.72,100.0,NC_004668.1,2212967,2213995,glycopeptide,Low,vanB,97.37,True,VanHBX,99.85,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,vanB
+E_faecalis_V583,vanH_in_vanB_cl,99.79,100.0,NC_004668.1,2213988,2214959,glycopeptide,Low,vanH-B,99.38,False,VanHBX,99.85,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,vanH-B
+E_faecalis_V583,vanW_in_vanB_cl,100.0,100.0,NC_004668.1,2214956,2215783,glycopeptide,Low,vanW-B,100.0,False,VanHBX,99.85,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,vanW-B
+E_faecalis_V583,vanY_in_vanB_cl,100.0,100.0,NC_004668.1,2215801,2216607,glycopeptide,Low,vanY-B,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,vanY-B
+E_faecalis_V583,vanS_in_vanB_cl,100.0,100.0,NC_004668.1,2216783,2218126,glycopeptide,Low,vanS-B,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,vanS-B
+E_faecalis_V583,vanR_in_vanB_cl,100.0,100.0,NC_004668.1,2218126,2218788,glycopeptide,Low,vanR-B,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,vanR-B
+E_faecalis_V583,lsaA,98.4,100.0,NC_004668.1,2631164,2632660,lincosamide,Low,lsa(A),100.0,True,lsa(A),98.53,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,lsa(A)
+E_faecalis_V583,efrA,98.9,100.0,NC_004668.1,2798453,2800180,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecalis_V583,IreK,98.79,100.0,NC_004668.1,2994908,2997064,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecalis_V583,ErmB,97.99,100.0,NC_004669.1,6333,7079,macrolide,High,erm(B),100.0,True,erm(B),100.0,True,ErmB,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,erm(B)
+E_faecalis_V583,qacH,98.46,100.0,NC_004669.1,8712,9035,unclassified,High,qacZ,100.0,False,,,False,qacH,100.0,True,confirmed,1,1,confirmed_blast_only,,BLAST,qacH
+E_faecalis_V583,AAC6_Ie_APH2_Ia,100.0,100.0,NC_004669.1,49141,50580,aminoglycoside,High,aac(6')-Ie/aph(2'')-Ia,100.0,True,aac(6')-aph(2''),100.0,True,AAC6_Ie_APH2_Ia,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aac(6')-Ie/aph(2'')-Ia
+E_faecalis_OG1RF,dfrE,97.98,100.0,NC_017316.1,1352639,1353133,trimethoprim,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecalis_OG1RF,lsaA,98.26,100.0,NC_017316.1,2205194,2206690,lincosamide,Low,lsa(A),100.0,True,lsa(A),98.66,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,lsa(A)
+E_faecalis_OG1RF,efrA,99.13,100.0,NC_017316.1,2340417,2342144,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_faecalis_OG1RF,IreK,98.7,100.0,NC_017316.1,2521837,2523993,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,CTX-M-14,100.0,100.0,NC_016838.1,31843,32718,beta-lactam,High,blaCTX-M-14,100.0,True,blaCTX-M-14,100.0,True,CTX-M-14,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,blaCTX-M-14
+K_pneumoniae_HS11286,TEM-1,100.0,100.0,NC_016839.1,29746,30606,beta-lactam,Medium,blaTEM-1,100.0,True,blaTEM-1C,99.88,False,TEM-1,100.0,True,confirmed,2,1,confirmed_multi_tool,,AMRFinderPlus,blaTEM-1
+K_pneumoniae_HS11286,rmtB,100.0,100.0,NC_016839.1,30776,31531,aminoglycoside,Medium,rmtB1,100.0,False,rmtB,100.0,True,rmtB,100.0,True,confirmed,2,1,confirmed_multi_tool,,ResFinder,rmtB
+K_pneumoniae_HS11286,cmlA9,100.0,100.0,NC_016839.1,37349,38563,phenicol,Medium,floR2,100.0,False,CmlA9,100.0,True,cmlA9,100.0,True,confirmed,2,1,confirmed_multi_tool,,ResFinder,CmlA9
+K_pneumoniae_HS11286,qacEdelta1,100.0,100.0,NC_016839.1,39745,40092,unclassified,Medium,qacEdelta1,100.0,True,sul1,99.82,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,qacEdelta1
+K_pneumoniae_HS11286,aadA2,99.87,100.0,NC_016839.1,40256,41035,aminoglycoside,Medium,aadA2,100.0,True,aadA2,100.0,True,aadA2,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aadA2
+K_pneumoniae_HS11286,TEM-1,100.0,100.0,NC_016839.1,49820,50680,beta-lactam,Medium,blaTEM-1,100.0,True,blaTEM-1C,99.88,False,TEM-1,100.0,True,confirmed,2,1,confirmed_multi_tool,,AMRFinderPlus,blaTEM-1
+K_pneumoniae_HS11286,APH(6)-Id,99.88,100.0,NC_016839.1,51095,51931,aminoglycoside,Medium,aph(6)-Id,100.0,True,aph(6)-Id,100.0,True,APH(6)-Id,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aph(6)-Id
+K_pneumoniae_HS11286,APH(3'')-Ib,99.75,100.0,NC_016839.1,51931,52734,aminoglycoside,Medium,aph(3'')-Ib,100.0,True,aph(3'')-Ib,100.0,True,APH(3'')-Ib,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aph(3'')-Ib
+K_pneumoniae_HS11286,sul2,100.0,100.0,NC_016839.1,52795,53610,sulfonamide,Medium,sul2,100.0,True,sul2,100.0,True,sul2,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,sul2
+K_pneumoniae_HS11286,CTX-M-14,100.0,100.0,NC_016839.1,82527,83402,beta-lactam,High,blaCTX-M-14,100.0,True,blaCTX-M-14,100.0,True,CTX-M-14,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,blaCTX-M-14
+K_pneumoniae_HS11286,FosA6,98.81,100.0,NC_016845.1,646217,646636,fosfomycin,Low,fosA,98.56,False,fosA6,98.81,True,,,False,confirmed,1,1,confirmed_resfinder,,ResFinder,fosA6
+K_pneumoniae_HS11286,LptD,100.0,100.0,NC_016845.1,804078,806426,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,OmpA,99.82,100.0,NC_016845.1,1936314,1937438,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,Kpne_KpnE,99.45,100.0,NC_016845.1,2508706,2509068,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,Kpne_KpnF,100.0,100.0,NC_016845.1,2509055,2509384,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,SHV-182,99.88,100.0,NC_016845.1,2549403,2550263,beta-lactam,Low,blaSHV-11,100.0,False,blaSHV-182,99.88,True,,,False,confirmed,1,1,confirmed_resfinder,,ResFinder,blaSHV-182
+K_pneumoniae_HS11286,MdtQ,99.79,100.0,NC_016845.1,3655612,3657051,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,Kpne_KpnG,99.49,100.0,NC_016845.1,4119624,4120796,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,ArnT,99.82,100.0,NC_016845.1,4999278,5000933,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,eptB,99.65,100.0,NC_016845.1,5080749,5082473,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_HS11286,KPC-2,100.0,100.0,NC_016846.1,20557,21438,beta-lactam,Medium,blaKPC-2,100.0,True,blaKPC-2,100.0,True,KPC-2,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,blaKPC-2
+K_pneumoniae_HS11286,TEM-1,100.0,100.0,NC_016846.1,41723,42583,beta-lactam,Medium,blaTEM-1,100.0,True,blaTEM-1C,99.88,False,TEM-1,100.0,True,confirmed,2,1,confirmed_multi_tool,,AMRFinderPlus,blaTEM-1
+K_pneumoniae_MGH78578,LptD,99.66,100.0,NC_009648.1,55104,57452,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,OmpA,99.73,100.0,NC_009648.1,1120326,1121450,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,Kpne_KpnE,99.45,100.0,NC_009648.1,1743439,1743801,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,Kpne_KpnF,100.0,100.0,NC_009648.1,1743788,1744117,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,SHV-40,99.88,100.0,NC_009648.1,1784144,1785004,beta-lactam,Low,blaSHV-11,100.0,False,blaSHV-89,99.88,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,blaSHV-11
+K_pneumoniae_MGH78578,MdtQ,99.65,100.0,NC_009648.1,2824079,2825518,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,oqxA,99.4,100.0,NC_009648.1,3262907,3264082,quinolone,Low,oqxA,100.0,True,OqxA,99.4,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,oqxA
+K_pneumoniae_MGH78578,oqxB,98.92,100.0,NC_009648.1,3264106,3267258,quinolone,Low,oqxB,99.9,True,OqxB,98.92,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,oqxB
+K_pneumoniae_MGH78578,Kpne_KpnG,99.32,100.0,NC_009648.1,3312172,3313344,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,ArnT,99.34,100.0,NC_009648.1,4198304,4199959,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,eptB,99.77,100.0,NC_009648.1,4279920,4281644,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+K_pneumoniae_MGH78578,FosA6,99.52,100.0,NC_009648.1,5217428,5217847,fosfomycin,Low,fosA,100.0,False,fosA6,99.52,True,,,False,confirmed,1,1,confirmed_resfinder,,ResFinder,fosA6
+K_pneumoniae_MGH78578,SHV-12,100.0,100.0,NC_009650.1,10117,10977,beta-lactam,Medium,blaSHV-12,100.0,True,blaSHV-12,100.0,True,SHV-12,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,blaSHV-12
+K_pneumoniae_MGH78578,AAC(6')-Ib',99.82,100.0,NC_009650.1,18886,19440,aminoglycoside,Medium,aac(6')-Ib,100.0,True,aac(6')-Ib,100.0,True,AAC(6')-Ib',100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aac(6')-Ib
+K_pneumoniae_MGH78578,OXA-9,99.88,100.0,NC_009650.1,20358,21182,beta-lactam,Medium,blaOXA,99.64,False,blaOXA-9,99.88,True,OXA-9,100.0,True,confirmed,2,1,confirmed_multi_tool,,ResFinder,blaOXA-9
+K_pneumoniae_MGH78578,TEM-90,99.88,100.0,NC_009650.1,21882,22742,beta-lactam,Medium,blaTEM-1,100.0,False,blaTEM-1A,100.0,False,TEM-90,100.0,True,confirmed,1,2,confirmed_blast_only,,BLAST,TEM-90
+K_pneumoniae_MGH78578,APH(3'')-Ib,99.88,100.0,NC_009651.1,12226,13029,aminoglycoside,High,aph(3'')-Ib,100.0,True,aph(3'')-Ib,99.88,True,APH(3'')-Ib,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aph(3'')-Ib
+K_pneumoniae_MGH78578,APH(6)-Id,99.88,100.0,NC_009651.1,13029,13865,aminoglycoside,High,aph(6)-Id,100.0,True,aph(6)-Id,100.0,True,APH(6)-Id,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aph(6)-Id
+K_pneumoniae_MGH78578,sul2,100.0,100.0,NC_009651.1,18529,19344,sulfonamide,High,sul2,100.0,True,sul2,100.0,True,sul2,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,sul2
+K_pneumoniae_MGH78578,APH(3')-Ia,100.0,100.0,NC_009651.1,27290,28105,aminoglycoside,High,aph(3')-Ia,100.0,True,aph(3')-Ia,100.0,True,APH(3')-Ia,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aph(3')-Ia
+K_pneumoniae_MGH78578,sul1,100.0,100.0,NC_009651.1,34075,34914,sulfonamide,Medium,sul1,100.0,True,sul1,100.0,True,sul1,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,sul1
+K_pneumoniae_MGH78578,qacEdelta1,100.0,100.0,NC_009651.1,34908,35255,unclassified,Medium,qacEdelta1,100.0,True,sul1,100.0,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,qacEdelta1
+K_pneumoniae_MGH78578,cmlA5,100.0,100.0,NC_009651.1,35447,36706,phenicol,Medium,cmlA5,100.0,True,CmlA7,100.0,False,cmlA5,100.0,True,confirmed,2,1,confirmed_multi_tool,,AMRFinderPlus,cmlA5
+K_pneumoniae_MGH78578,ANT(2'')-Ia,100.0,100.0,NC_009651.1,37667,38200,aminoglycoside,Medium,ant(2'')-Ia,100.0,True,ant(2'')-Ia,100.0,True,ANT(2'')-Ia,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,ant(2'')-Ia
+K_pneumoniae_MGH78578,catA1,99.55,100.0,NC_009651.1,66239,66898,phenicol,High,catA1,100.0,True,catA1,99.55,True,catA1,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,catA1
+K_pneumoniae_MGH78578,tet(D),100.0,100.0,NC_009651.1,85914,87098,tetracycline,Medium,tet(D),100.0,True,tet(D),100.0,True,tet(D),100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,tet(D)
+K_pneumoniae_MGH78578,TEM-166,99.88,100.0,NC_009651.1,87578,88438,beta-lactam,Medium,blaTEM-1,100.0,False,blaTEM-1B,100.0,False,TEM-166,100.0,True,confirmed,1,2,confirmed_blast_only,,BLAST,TEM-166
+E_coli_K12_MG1655,leuO,97.99,100.0,NC_000913.3,84368,85312,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,acrB,100.0,100.0,NC_000913.3,481254,484403,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,Ecol_acrA,100.0,100.0,NC_000913.3,484426,485619,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,Ecol_emrE,100.0,100.0,NC_000913.3,568315,568647,unclassified,Medium,emrE,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,emrE
+E_coli_K12_MG1655,kdpE,100.0,100.0,NC_000913.3,721056,721733,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,Ecol_mdfA,98.38,100.0,NC_000913.3,883673,884905,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,msbA,100.0,100.0,NC_000913.3,966621,968369,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtG,99.43,100.0,NC_000913.3,1114264,1115490,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtH,100.0,100.0,NC_000913.3,1124118,1125326,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,H-NS,99.28,100.0,NC_000913.3,1292509,1292922,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,marA,100.0,100.0,NC_000913.3,1619574,1619957,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,ugd,100.0,100.0,NC_000913.3,2098447,2099613,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtA,100.0,100.0,NC_000913.3,2154016,2155263,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtB,100.0,100.0,NC_000913.3,2155263,2158385,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtC,100.0,100.0,NC_000913.3,2158386,2161463,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,YojI,100.0,100.0,NC_000913.3,2306972,2308615,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,PmrF,100.0,100.0,NC_000913.3,2367071,2368039,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,emrY,99.94,100.0,NC_000913.3,2480638,2482176,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,emrK,100.0,100.0,NC_000913.3,2482176,2483231,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,evgA,100.0,100.0,NC_000913.3,2483755,2484369,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,evgS,100.0,100.0,NC_000913.3,2484374,2487967,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,acrD,100.0,100.0,NC_000913.3,2587595,2590708,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,emrR,100.0,100.0,NC_000913.3,2810770,2811300,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,emrA,100.0,100.0,NC_000913.3,2811427,2812599,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,emrB,100.0,100.0,NC_000913.3,2812616,2814154,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,TolC,100.0,100.0,NC_000913.3,3178109,3179596,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,bacA,100.0,100.0,NC_000913.3,3203310,3204131,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,AcrS,100.0,100.0,NC_000913.3,3412803,3413465,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,AcrE,100.0,100.0,NC_000913.3,3413864,3415021,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,AcrF,100.0,100.0,NC_000913.3,3415033,3418137,unclassified,Low,acrF,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,acrF
+E_coli_K12_MG1655,CRP,99.84,100.0,NC_000913.3,3486120,3486752,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtE,100.0,100.0,NC_000913.3,3659232,3660389,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtF,100.0,100.0,NC_000913.3,3660414,3663527,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,gadX,100.0,100.0,NC_000913.3,3664986,3665810,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,cpxA,98.98,100.0,NC_000913.3,4103602,4104975,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtP,100.0,100.0,NC_000913.3,4299564,4301030,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtO,100.0,100.0,NC_000913.3,4301027,4303078,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,mdtN,100.0,100.0,NC_000913.3,4303078,4304109,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,eptA,100.0,100.0,NC_000913.3,4333947,4335590,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_K12_MG1655,Ecol_ampC_BLA,100.0,100.0,NC_000913.3,4377811,4378944,unclassified,Low,blaEC,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,blaEC
+E_coli_K12_MG1655,mdtM,100.0,100.0,NC_000913.3,4567287,4568519,unclassified,Low,mdtM,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mdtM
+E_coli_O157H7_Sakai,leuO,97.57,100.0,NC_002695.2,88974,89918,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,acrB,99.11,100.0,NC_002695.2,547320,550469,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,Ecol_acrA,99.83,100.0,NC_002695.2,550492,551685,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,kdpE,97.2,100.0,NC_002695.2,799484,800161,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,Ecol_mdfA,97.0,100.0,NC_002695.2,1008961,1010193,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,msbA,98.68,100.0,NC_002695.2,1096264,1098012,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtG,98.78,100.0,NC_002695.2,1473546,1474772,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtH,98.59,100.0,NC_002695.2,1483403,1484611,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,Ecol_emrE,98.8,100.0,NC_002695.2,1621711,1622043,unclassified,Low,emrE,98.18,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,emrE
+E_coli_O157H7_Sakai,H-NS,100.0,100.0,NC_002695.2,1737691,1738104,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,marA,99.22,100.0,NC_002695.2,2144122,2144505,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,ugd,97.34,100.0,NC_002695.2,2770646,2771812,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtA,98.08,100.0,NC_002695.2,2829585,2830832,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtB,97.53,100.0,NC_002695.2,2830832,2833954,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtC,97.6,100.0,NC_002695.2,2833955,2837032,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,YojI,99.27,100.0,NC_002695.2,3040094,3041737,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,PmrF,99.17,100.0,NC_002695.2,3097719,3098687,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,emrY,98.77,100.0,NC_002695.2,3208909,3210447,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,emrK,98.67,100.0,NC_002695.2,3210447,3211502,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,evgA,100.0,100.0,NC_002695.2,3212026,3212640,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,evgS,96.97,100.0,NC_002695.2,3212645,3216238,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,acrD,99.1,100.0,NC_002695.2,3303854,3306967,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,emrR,99.62,100.0,NC_002695.2,3535055,3535585,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,emrA,99.23,100.0,NC_002695.2,3535712,3536884,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,emrB,98.64,100.0,NC_002695.2,3536901,3538439,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,TolC,98.92,100.0,NC_002695.2,3924331,3925818,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,bacA,99.51,100.0,NC_002695.2,3942966,3943787,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,AcrS,99.4,100.0,NC_002695.2,4147890,4148552,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,AcrE,99.14,100.0,NC_002695.2,4148951,4150108,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,CRP,99.05,100.0,NC_002695.2,4206154,4206786,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtE,99.14,100.0,NC_002695.2,4401492,4402649,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtF,98.91,100.0,NC_002695.2,4402674,4405787,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,gadX,98.3,100.0,NC_002695.2,4407246,4408070,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,cpxA,100.0,100.0,NC_002695.2,4903689,4905062,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtP,97.89,100.0,NC_002695.2,5152376,5153842,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtO,97.9,100.0,NC_002695.2,5153839,5155890,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,mdtN,97.77,100.0,NC_002695.2,5155890,5156921,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,eptA,98.91,100.0,NC_002695.2,5188523,5190166,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+E_coli_O157H7_Sakai,EC-15,98.06,100.0,NC_002695.2,5232218,5233351,unclassified,Low,blaEC,98.14,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,blaEC
+E_coli_O157H7_Sakai,mdtM,96.11,100.0,NC_002695.2,5430530,5431762,unclassified,Low,mdtM,98.05,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mdtM
+S_enterica_LT2,mdsC,100.0,100.0,NC_003197.2,392420,393931,unclassified,Low,mdsB,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,mdsB
+S_enterica_LT2,mdsB,100.0,100.0,NC_003197.2,393894,397061,unclassified,Low,mdsB,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mdsB
+S_enterica_LT2,mdsA,100.0,100.0,NC_003197.2,397058,398284,unclassified,Low,mdsA,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mdsA
+S_enterica_LT2,golS,100.0,100.0,NC_003197.2,400861,401325,unclassified,Low,golS,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,golS
+S_enterica_LT2,AAC(6')-Iaa,100.0,100.0,NC_003197.2,1707352,1707789,aminoglycoside,Low,,,False,aac(6')-Iaa,100.0,True,,,False,confirmed,1,0,confirmed_resfinder,,ResFinder,aac(6')-Iaa
+S_enterica_LT2,sdiA,100.0,100.0,NC_003197.2,2039655,2040377,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_enterica_LT2,MdtK,99.93,100.0,NC_003197.2,2094374,2095798,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,leuO,97.88,100.0,NC_004337.2,82209,83153,unclassified,Medium,,,False,,,False,leuO,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,leuO
+Shigella_flexneri_2a_301,acrB,99.05,100.0,NC_004337.2,417785,420934,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,Sfle_acrA,100.0,100.0,NC_004337.2,420957,422150,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,msbA,99.14,100.0,NC_004337.2,950406,952154,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,mdtH,98.51,100.0,NC_004337.2,1111879,1113087,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,H-NS,99.03,100.0,NC_004337.2,1287548,1287961,unclassified,Medium,,,False,,,False,H-NS,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,H-NS
+Shigella_flexneri_2a_301,marA,100.0,100.0,NC_004337.2,1595773,1596156,unclassified,Medium,,,False,,,False,marA,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,marA
+Shigella_flexneri_2a_301,mdtB,98.94,100.0,NC_004337.2,2162056,2165178,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,YojI,98.91,100.0,NC_004337.2,2328357,2330000,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,PmrF,99.59,100.0,NC_004337.2,2379800,2380768,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,emrY,98.05,100.0,NC_004337.2,2483700,2485238,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,emrK,97.92,100.0,NC_004337.2,2485238,2486293,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,evgA,99.02,100.0,NC_004337.2,2486817,2487431,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,evgS,99.5,100.0,NC_004337.2,2487436,2491029,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,acrD,99.13,100.0,NC_004337.2,2575652,2578765,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,emrA,97.36,100.0,NC_004337.2,2785324,2786496,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,emrB,99.35,100.0,NC_004337.2,2786513,2788051,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,TolC,98.59,100.0,NC_004337.2,3171244,3172731,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,bacA,98.91,100.0,NC_004337.2,3192416,3193237,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,CRP,99.21,100.0,NC_004337.2,3455329,3455961,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,gadX,97.94,100.0,NC_004337.2,3697297,3698121,unclassified,Medium,,,False,,,False,gadX,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,gadX
+Shigella_flexneri_2a_301,mdtF,98.49,100.0,NC_004337.2,3699580,3702693,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,cpxA,98.76,100.0,NC_004337.2,4118585,4119958,unclassified,Medium,,,False,,,False,cpxA,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,cpxA
+Shigella_flexneri_2a_301,eptA,99.09,100.0,NC_004337.2,4272966,4274609,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,mdtP,97.41,100.0,NC_004337.2,4309589,4311055,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,mdtN,97.58,100.0,NC_004337.2,4313094,4314125,unclassified,Medium,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Shigella_flexneri_2a_301,EC-8,98.15,100.0,NC_004337.2,4482197,4483330,unclassified,Medium,blaEC,98.14,False,,,False,EC-8,100.0,True,confirmed,1,1,confirmed_blast_only,,BLAST,EC-8
+Enterobacter_cloacae_ATCC13047,CMH-4,100.0,100.0,NC_014121.1,542200,543345,unclassified,Low,blaCMH-4,100.0,True,blaCMH-3,98.69,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,blaCMH-4
+Enterobacter_cloacae_ATCC13047,ramA,98.93,100.0,NC_014121.1,3217961,3218335,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+Enterobacter_cloacae_ATCC13047,sul2,100.0,100.0,NC_014121.1,3902508,3903323,sulfonamide,High,sul2,100.0,True,sul2,100.0,True,sul2,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,sul2
+Proteus_mirabilis_HI4320,catA4,98.17,100.0,NC_010554.1,802273,802926,phenicol,Low,catA4,97.7,True,cat,98.78,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,catA4
+Proteus_mirabilis_HI4320,tet(J),98.41,100.0,NC_010554.1,2621559,2622755,tetracycline,Low,tet(J),99.25,True,tet(J),99.16,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,tet(J)
+C_difficile_630,CDD-2,100.0,100.0,NC_009089.1,545392,546318,unclassified,Low,blaCDD-2,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,blaCDD-2
+C_difficile_630,CdnimB,99.57,100.0,NC_009089.1,1688532,1688999,unclassified,Low,nimB-Cd,99.35,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,nimB-Cd
+C_difficile_630,cdeA,99.85,100.0,NC_009089.1,1742795,1744120,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+C_difficile_630,ErmB,97.72,100.0,NC_009089.1,2316958,2317704,macrolide,Low,erm(B),100.0,True,erm(B),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(B)
+C_difficile_630,ErmB,97.72,100.0,NC_009089.1,2319365,2320111,macrolide,Low,erm(B),100.0,True,erm(B),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(B)
+C_difficile_630,cplR,100.0,100.0,NC_009089.1,3000142,3001794,unclassified,Low,cplR,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,cplR
+C_perfringens_str13,Cper_cplR,100.0,100.0,NC_003366.1,967229,968935,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,norC,96.98,100.0,NC_007795.1,62384,63772,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,tet(38),99.85,100.0,NC_007795.1,103075,104427,tetracycline,Low,tet(38),100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,tet(38)
+S_aureus_NCTC8325,mepR,99.29,100.0,NC_007795.1,328838,329257,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,mepA,100.0,100.0,NC_007795.1,329364,330719,unclassified,Low,mepA,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mepA
+S_aureus_NCTC8325,mgrA,99.77,100.0,NC_007795.1,679331,679774,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,Saur_norA,99.91,100.0,NC_007795.1,687425,688591,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,arlS,100.0,100.0,NC_007795.1,1360281,1361636,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,arlR,100.0,100.0,NC_007795.1,1361633,1362292,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,kdpD,98.98,100.0,NC_007795.1,2144446,2147103,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,Saur_LmrS,100.0,100.0,NC_007795.1,2246027,2247469,unclassified,Low,lmrS,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,lmrS
+S_aureus_NCTC8325,sdrM,99.4,100.0,NC_007795.1,2248363,2249706,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_NCTC8325,Saur_FosB,100.0,100.0,NC_007795.1,2399531,2399950,unclassified,Low,fosB,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,fosB
+S_aureus_N315,ANT(4')-Ia,99.87,100.0,NC_002745.2,40818,41579,aminoglycoside,High,aadD1,100.0,False,aadD,100.0,True,ANT(4')-Ia,100.0,True,confirmed,2,1,confirmed_multi_tool,,ResFinder,aadD
+S_aureus_N315,mecA,99.85,100.0,NC_002745.2,45031,47037,beta-lactam,Medium,mecA,100.0,True,mecA,100.0,True,mecA,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,mecA
+S_aureus_N315,mecR1,99.94,100.0,NC_002745.2,47137,48894,beta-lactam,Medium,mecR1,100.0,True,,,False,mecR1,100.0,True,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,mecR1
+S_aureus_N315,mecI,100.0,100.0,NC_002745.2,48894,49265,beta-lactam,Low,mecI,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mecI
+S_aureus_N315,ErmA,100.0,100.0,NC_002745.2,56002,56733,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_N315,ANT(9)-Ia,100.0,100.0,NC_002745.2,56859,57641,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_N315,norC,96.98,100.0,NC_002745.2,111614,113002,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_N315,tet(38),100.0,100.0,NC_002745.2,151640,152992,tetracycline,Low,tet(38),100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,tet(38)
+S_aureus_N315,mepR,100.0,100.0,NC_002745.2,379975,380394,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_N315,mepA,99.48,100.0,NC_002745.2,380501,381856,unclassified,Low,mepA,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mepA
+S_aureus_N315,mgrA,100.0,100.0,NC_002745.2,735417,735860,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_N315,Saur_norA,100.0,100.0,NC_002745.2,743511,744677,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_N315,ANT(9)-Ia,100.0,100.0,NC_002745.2,870517,871299,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_N315,ErmA,100.0,100.0,NC_002745.2,871425,872156,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_N315,arlS,99.85,100.0,NC_002745.2,1422192,1423547,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_N315,ErmA,100.0,100.0,NC_002745.2,1685864,1686595,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_N315,ANT(9)-Ia,100.0,100.0,NC_002745.2,1686721,1687503,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_N315,kdpD,98.95,100.0,NC_002745.2,2130678,2133335,unclassified,Medium,,,False,,,False,kdpD,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,kdpD
+S_aureus_N315,ErmA,100.0,100.0,NC_002745.2,2200193,2200924,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_N315,ANT(9)-Ia,100.0,100.0,NC_002745.2,2201050,2201832,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_N315,Saur_LmrS,99.03,100.0,NC_002745.2,2237543,2238985,unclassified,Low,lmrS,99.17,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,lmrS
+S_aureus_N315,sdrM,100.0,100.0,NC_002745.2,2239880,2241223,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_N315,Saur_FosB,99.76,100.0,NC_002745.2,2389328,2389747,unclassified,Low,fosB,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,fosB
+S_aureus_N315,ErmA,100.0,100.0,NC_002745.2,2672535,2673266,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_N315,ANT(9)-Ia,100.0,100.0,NC_002745.2,2673392,2674174,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_N315,PC1_blaZ,98.23,100.0,NC_003140.1,7945,8790,unclassified,Low,blaZ,100.0,False,blaZ,100.0,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,blaZ
+S_aureus_Mu50,ANT(4')-Ia,99.87,100.0,NC_002758.2,40819,41580,aminoglycoside,High,aadD1,100.0,False,aadD,100.0,True,ANT(4')-Ia,100.0,True,confirmed,2,1,confirmed_multi_tool,,ResFinder,aadD
+S_aureus_Mu50,mecA,99.85,100.0,NC_002758.2,44992,46998,beta-lactam,Medium,mecA,100.0,True,mecA,100.0,True,mecA,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,mecA
+S_aureus_Mu50,mecR1,99.94,100.0,NC_002758.2,47098,48855,beta-lactam,Medium,mecR1,100.0,True,,,False,mecR1,100.0,True,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,mecR1
+S_aureus_Mu50,mecI,99.73,100.0,NC_002758.2,48855,49226,beta-lactam,Low,mecI,99.19,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mecI
+S_aureus_Mu50,ErmA,100.0,100.0,NC_002758.2,55963,56694,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_Mu50,ANT(9)-Ia,100.0,100.0,NC_002758.2,56820,57602,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_Mu50,norC,96.98,100.0,NC_002758.2,111575,112963,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_Mu50,tet(38),100.0,100.0,NC_002758.2,151601,152953,tetracycline,Low,tet(38),100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,tet(38)
+S_aureus_Mu50,mepR,100.0,100.0,NC_002758.2,379932,380351,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_Mu50,mepA,99.48,100.0,NC_002758.2,380458,381813,unclassified,Low,mepA,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mepA
+S_aureus_Mu50,tet(M),96.77,100.0,NC_002758.2,439865,441784,tetracycline,Low,tet(M),100.0,True,tet(M),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,tet(M)
+S_aureus_Mu50,mgrA,100.0,100.0,NC_002758.2,759666,760109,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_Mu50,Saur_norA,100.0,100.0,NC_002758.2,767760,768926,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_Mu50,arlS,99.85,100.0,NC_002758.2,1498587,1499942,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_Mu50,arlR,100.0,100.0,NC_002758.2,1499939,1500598,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_aureus_Mu50,ErmA,100.0,100.0,NC_002758.2,1762257,1762988,macrolide,Low,erm(A),100.0,True,erm(A),100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,erm(A)
+S_aureus_Mu50,ANT(9)-Ia,100.0,100.0,NC_002758.2,1763114,1763896,aminoglycoside,Low,ant(9)-Ia,100.0,True,ant(9)-Ia,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,ant(9)-Ia
+S_aureus_Mu50,kdpD,98.95,100.0,NC_002758.2,2207110,2209767,unclassified,Medium,,,False,,,False,kdpD,100.0,True,confirmed,1,0,confirmed_blast_only,,BLAST,kdpD
+S_aureus_Mu50,Saur_LmrS,99.03,100.0,NC_002758.2,2307263,2308705,unclassified,Low,lmrS,99.17,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,lmrS
+S_aureus_Mu50,Saur_FosB,99.76,100.0,NC_002758.2,2458828,2459247,unclassified,Low,fosB,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,fosB
+S_aureus_Mu50,AAC6_Ie_APH2_Ia,100.0,100.0,NC_002774.1,17224,18663,aminoglycoside,High,aac(6')-Ie/aph(2'')-Ia,100.0,True,aac(6')-aph(2''),100.0,True,AAC6_Ie_APH2_Ia,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,aac(6')-Ie/aph(2'')-Ia
+S_aureus_Mu50,qacA,99.94,100.0,NC_002774.1,21593,23137,unclassified,Medium,qacA,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,qacA
+L_monocytogenes_EGDe,lin,100.0,100.0,NC_003210.1,956031,957602,unclassified,Low,vga(G),100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,vga(G)
+L_monocytogenes_EGDe,Lmon_mprF,100.0,100.0,NC_003210.1,1758694,1761291,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+L_monocytogenes_EGDe,norB,99.57,100.0,NC_003210.1,2901800,2903200,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_agalactiae_2603VR,tet(M),99.27,100.0,NC_004116.1,927455,929374,tetracycline,Low,tet(M),100.0,True,tet(M),99.9,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,tet(M)
+S_agalactiae_2603VR,mreA,100.0,100.0,NC_004116.1,1005170,1006105,unclassified,Low,,,False,mre(A),100.0,True,,,False,confirmed,1,0,confirmed_resfinder,,ResFinder,mre(A)
+S_agalactiae_2603VR,Saga_mprF,100.0,100.0,NC_004116.1,2111277,2113820,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,TriA,100.0,100.0,NC_002516.2,177307,178458,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,TriB,100.0,100.0,NC_002516.2,178455,179525,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,TriC,100.0,100.0,NC_002516.2,179522,182569,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexA,100.0,100.0,NC_002516.2,472024,473175,unclassified,Low,mexA,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mexA
+P_aeruginosa_PAO1,MexB,99.97,100.0,NC_002516.2,473191,476331,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OprM,100.0,100.0,NC_002516.2,476333,477790,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,Paer_catB7,100.0,100.0,NC_002516.2,779463,780101,unclassified,Low,catB7,100.0,False,catB7,100.0,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,catB7
+P_aeruginosa_PAO1,rsmA,100.0,100.0,NC_002516.2,991013,991198,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,FosA,100.0,100.0,NC_002516.2,1221691,1222098,fosfomycin,Low,fosA,100.0,True,fosA,99.51,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,fosA
+P_aeruginosa_PAO1,PmpM,100.0,100.0,NC_002516.2,1472547,1473980,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,mexM,99.91,100.0,NC_002516.2,1562813,1563970,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,mexN,99.97,100.0,NC_002516.2,1563967,1567077,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,ParS,100.0,100.0,NC_002516.2,1950439,1951725,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,ParR,100.0,100.0,NC_002516.2,1951726,1952433,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,Paer_soxR,100.0,100.0,NC_002516.2,2503425,2503895,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexE,100.0,100.0,NC_002516.2,2808743,2809987,unclassified,Low,mexE,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,mexE
+P_aeruginosa_PAO1,MexF,100.0,100.0,NC_002516.2,2810009,2813197,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OprN,100.0,100.0,NC_002516.2,2813194,2814612,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OpmB,100.0,100.0,NC_002516.2,2846283,2847779,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MuxC,100.0,100.0,NC_002516.2,2847776,2850886,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MuxB,100.0,100.0,NC_002516.2,2850883,2854014,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MuxA,100.0,100.0,NC_002516.2,2854011,2855291,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,cprR,100.0,100.0,NC_002516.2,3450838,3451509,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,cprS,100.0,100.0,NC_002516.2,3451506,3452801,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,Paer_CpxR,100.0,100.0,NC_002516.2,3594581,3595258,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,opmE,100.0,100.0,NC_002516.2,3938020,3939495,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,mexQ,99.97,100.0,NC_002516.2,3939492,3942653,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,mexP,100.0,100.0,NC_002516.2,3942650,3943807,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,arnA,100.0,100.0,NC_002516.2,3982021,3984009,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexK,100.0,100.0,NC_002516.2,4116188,4119265,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexJ,100.0,100.0,NC_002516.2,4119270,4120373,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,ArmR,100.0,100.0,NC_002516.2,4165719,4165880,aminoglycoside,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,YajC,99.71,100.0,NC_002516.2,4279007,4279345,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,PDC-1,100.0,100.0,NC_002516.2,4594029,4595222,unclassified,Low,blaPDC-1,100.0,True,blaPAO,100.0,False,,,False,confirmed,1,1,confirmed_amrfinder,,AMRFinderPlus,blaPDC-1
+P_aeruginosa_PAO1,APH(3')-IIb,98.51,100.0,NC_002516.2,4607578,4608384,aminoglycoside,Low,aph(3')-IIb,100.0,True,aph(3')-IIb,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,aph(3')-IIb
+P_aeruginosa_PAO1,bcr-1,99.92,100.0,NC_002516.2,4625089,4626297,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexG,100.0,100.0,NC_002516.2,4705956,4706402,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexH,100.0,100.0,NC_002516.2,4706410,4707522,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexI,100.0,100.0,NC_002516.2,4707535,4710624,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OpmD,100.0,100.0,NC_002516.2,4710621,4712084,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexV,100.0,100.0,NC_002516.2,4903466,4904596,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexW,100.0,100.0,NC_002516.2,4904647,4907703,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OprJ,99.86,100.0,NC_002516.2,5149633,5151072,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,MexD,96.81,100.0,NC_002516.2,5151078,5154209,unclassified,Low,,,False,tmexD2,81.04,False,,,False,confirmed,0,1,discordant,,ResFinder,tmexD2
+P_aeruginosa_PAO1,MexC,100.0,100.0,NC_002516.2,5154237,5155400,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,basS,99.58,100.0,NC_002516.2,5364760,5366193,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OpmH,100.0,100.0,NC_002516.2,5584101,5585549,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,Paer_emrE,100.0,100.0,NC_002516.2,5606103,5606435,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+P_aeruginosa_PAO1,OXA-904,99.87,100.0,NC_002516.2,6207241,6208029,beta-lactam,Low,blaOXA-50,100.0,False,blaOXA-50,99.87,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,blaOXA-50
+A_baumannii_ATCC17978,ANT(3'')-IIa,97.72,100.0,NC_009085.1,156999,157787,aminoglycoside,Low,ant(3'')-IIa,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,ant(3'')-IIa
+A_baumannii_ATCC17978,abeM,99.18,100.0,NC_009085.1,427913,429259,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,LpsB,98.37,100.0,NC_009085.1,469633,470733,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,sul2,100.0,100.0,NC_009085.1,798900,799715,sulfonamide,High,sul2,100.0,True,sul2,100.0,True,sul2,100.0,True,confirmed,3,0,confirmed_multi_tool,,AMRFinderPlus,sul2
+A_baumannii_ATCC17978,Abau_AbaF,100.0,100.0,NC_009085.1,1557234,1558523,unclassified,Low,abaF,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,abaF
+A_baumannii_ATCC17978,OXA-259,100.0,100.0,NC_009085.1,1765468,1766292,beta-lactam,Low,blaOXA-259,100.0,True,blaOXA-259,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,blaOXA-259
+A_baumannii_ATCC17978,adeB,98.1,100.0,NC_009085.1,2036447,2039554,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeR,98.79,100.0,NC_009085.1,2040891,2041634,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeS,96.78,100.0,NC_009085.1,2041666,2042751,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeN,99.69,100.0,NC_009085.1,2292697,2293350,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,Abau_AmvA,97.5,100.0,NC_009085.1,2398286,2399764,unclassified,Low,amvA,98.58,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,amvA
+A_baumannii_ATCC17978,adeL,99.31,100.0,NC_009085.1,2666703,2667716,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeG,95.09,100.0,NC_009085.1,2667932,2669152,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeF,97.3,100.0,NC_009085.1,2669156,2672335,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeH,99.24,100.0,NC_009085.1,2672345,2673796,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,ADC-66,99.39,100.0,NC_009085.1,2740797,2741948,unclassified,Low,blaADC-26,100.0,False,blaADC-25,96.88,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,blaADC-26
+A_baumannii_ATCC17978,adeI,99.6,100.0,NC_009085.1,3171868,3173118,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeJ,99.37,100.0,NC_009085.1,3173131,3176307,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+A_baumannii_ATCC17978,adeK,99.31,100.0,NC_009085.1,3176307,3177761,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,APH(9)-Ic,98.94,100.0,NC_010943.1,2145862,2146902,aminoglycoside,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,AAC(6')-Iz,98.7,100.0,NC_010943.1,3672411,3672872,aminoglycoside,Low,aac(6')-Iz,100.0,True,aac(6')-Iz,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,aac(6')-Iz
+S_maltophilia_K279a,smeE,96.45,100.0,NC_010943.1,4175834,4178956,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,smeD,95.53,100.0,NC_010943.1,4178969,4180153,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,smeC,98.16,100.0,NC_010943.1,4590641,4592056,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,smeB,99.17,100.0,NC_010943.1,4592053,4595202,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,smeA,98.41,100.0,NC_010943.1,4595215,4596411,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,smeS,99.57,100.0,NC_010943.1,4596530,4597933,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+S_maltophilia_K279a,smeR,98.84,100.0,NC_010943.1,4597930,4598619,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+C_jejuni_NCTC11168,OXA-193,100.0,100.0,NC_002163.1,273321,274094,beta-lactam,Low,blaOXA-193,100.0,True,blaOXA-193,99.87,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,blaOXA-193
+C_jejuni_NCTC11168,cmeC,98.92,100.0,NC_002163.1,331125,332603,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+C_jejuni_NCTC11168,cmeB,96.25,100.0,NC_002163.1,332596,335718,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+C_jejuni_NCTC11168,cmeA,95.11,100.0,NC_002163.1,335718,336821,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+C_jejuni_NCTC11168,cmeR,100.0,100.0,NC_002163.1,336916,337548,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+H_pylori_26695,hp1181,100.0,100.0,NC_000915.1,1249488,1250819,unclassified,Low,,,False,,,False,,,False,confirmed,0,0,not_checked,no external hit covered this locus,none,
+B_fragilis_NCTC9343,CepA-29,99.67,100.0,NC_003228.3,1461124,1462026,unclassified,Low,cepA,100.0,False,cepA,100.0,False,,,False,confirmed,0,2,discordant,,AMRFinderPlus,cepA
+V_cholerae_N16961,Vcho_varG,100.0,100.0,NC_002505.1,1674273,1675445,unclassified,Low,varG,100.0,False,,,False,,,False,confirmed,0,1,discordant,,AMRFinderPlus,varG
+V_cholerae_N16961,almG,100.0,100.0,NC_002505.1,1687438,1688259,unclassified,Low,almG,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,almG
+V_cholerae_N16961,almF,99.58,100.0,NC_002505.1,1688261,1688497,unclassified,Low,almF,100.0,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,almF
+V_cholerae_N16961,almE,98.56,100.0,NC_002505.1,1688481,1690151,unclassified,Low,almE,98.38,True,,,False,,,False,confirmed,1,0,confirmed_amrfinder,,AMRFinderPlus,almE
+V_cholerae_N16961,catB9,100.0,100.0,NC_002506.1,315311,315940,phenicol,Low,catB9,100.0,True,catB9,100.0,True,,,False,confirmed,2,0,confirmed_multi_tool,,AMRFinderPlus,catB9

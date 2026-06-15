@@ -1,0 +1,5 @@
+analysis,test,statistic,p_value,detail
+mobile ARG burden pathogen vs probiotic,Mann-Whitney U,606.5,3.126466854100158e-09,"pathogen mean=12.32, probiotic mean=0.52"
+enrichment: High/Medium risk,Fisher exact (2-sided),inf,0.3806082899433012,pathogen 45/360 vs probiotic 0/13
+enrichment: plasmid-associated,Fisher exact (2-sided),inf,0.6104673112644587,pathogen 28/360 vs probiotic 0/13
+enrichment: IS-flanked both sides,Fisher exact (2-sided),inf,1.0,pathogen 15/360 vs probiotic 0/13

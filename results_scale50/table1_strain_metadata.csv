@@ -1,0 +1,51 @@
+strain_id,species,group,accession,product_example,isolation_source,qps_listed,genome_available,genome_length_bp,n_contigs,gc_percent,fasta_path,assembly_quality
+L_rhamnosus_GG,Lacticaseibacillus rhamnosus,probiotic,NC_013198.1,Culturelle,,yes,True,3010111,1,46.69,data\genomes\probiotic\Lacticaseibacillus_rhamnosus\NC_013198.1_full.fna,complete
+L_acidophilus_NCFM,Lactobacillus acidophilus,probiotic,NC_006814.3,yogurt cultures,,yes,True,1993560,1,34.71,data\genomes\probiotic\Lactobacillus_acidophilus\NC_006814.3_full.fna,complete
+L_plantarum_WCFS1,Lactiplantibacillus plantarum,probiotic,NC_004567.2,supplements,,yes,True,3348624,4,44.42,data\genomes\probiotic\Lactiplantibacillus_plantarum\NC_004567.2_full.fna,draft
+L_casei_BL23,Lacticaseibacillus casei,probiotic,NC_010999.1,Yakult-type,,yes,True,3079196,1,46.34,data\genomes\probiotic\Lacticaseibacillus_casei\NC_010999.1_full.fna,complete
+L_reuteri_DSM20016,Limosilactobacillus reuteri,probiotic,CP000705.1,BioGaia,,yes,True,1999618,1,38.87,data\genomes\probiotic\Limosilactobacillus_reuteri\CP000705.1_full.fna,complete
+B_longum_NCC2705,Bifidobacterium longum,probiotic,NC_004307.2,Align,,yes,True,2260266,2,60.13,data\genomes\probiotic\Bifidobacterium_longum\NC_004307.2_full.fna,complete
+B_animalis_lactis_AD011,Bifidobacterium animalis subsp. lactis,probiotic,NC_011835.1,Activia,,yes,True,1933695,1,60.49,data\genomes\probiotic\Bifidobacterium_animalis_subsp._lactis\NC_011835.1_full.fna,complete
+S_thermophilus_LMG18311,Streptococcus thermophilus,probiotic,NC_006448.1,yogurt cultures,,yes,True,1796846,1,39.09,data\genomes\probiotic\Streptococcus_thermophilus\NC_006448.1_full.fna,complete
+L_lactis_IL1403,Lactococcus lactis subsp. lactis,probiotic,NC_002662.1,dairy ferments,,yes,True,2365589,1,35.33,data\genomes\probiotic\Lactococcus_lactis_subsp._lactis\NC_002662.1_full.fna,complete
+B_subtilis_168,Bacillus subtilis,probiotic,NC_000964.3,spore probiotics,,yes,True,4215606,1,43.51,data\genomes\probiotic\Bacillus_subtilis\NC_000964.3_full.fna,complete
+L_bulgaricus_ATCC11842,Lactobacillus delbrueckii subsp. bulgaricus,probiotic,NC_008054.1,yogurt cultures,,yes,True,1864998,1,49.72,data\genomes\probiotic\Lactobacillus_delbrueckii_subsp._bulgaricus\NC_008054.1_full.fna,complete
+L_gasseri_ATCC33323,Lactobacillus gasseri,probiotic,NC_008530.1,supplements,,yes,True,1894360,1,35.26,data\genomes\probiotic\Lactobacillus_gasseri\NC_008530.1_full.fna,complete
+L_johnsonii_NCC533,Lactobacillus johnsonii,probiotic,NC_005362.1,supplements,,yes,True,1992676,1,34.61,data\genomes\probiotic\Lactobacillus_johnsonii\NC_005362.1_full.fna,complete
+L_salivarius_UCC118,Ligilactobacillus salivarius,probiotic,NC_007929.1,supplements,,yes,True,2133977,4,33.04,data\genomes\probiotic\Ligilactobacillus_salivarius\NC_007929.1_full.fna,draft
+B_adolescentis_ATCC15703,Bifidobacterium adolescentis,probiotic,NC_008618.1,supplements,,yes,True,2089645,1,59.18,data\genomes\probiotic\Bifidobacterium_adolescentis\NC_008618.1_full.fna,complete
+B_bifidum_PRL2010,Bifidobacterium bifidum,probiotic,NC_014638.1,supplements,,yes,True,2214656,1,62.67,data\genomes\probiotic\Bifidobacterium_bifidum\NC_014638.1_full.fna,complete
+B_breve_UCC2003,Bifidobacterium breve,probiotic,NC_020517.1,supplements,,yes,True,2422684,1,58.73,data\genomes\probiotic\Bifidobacterium_breve\NC_020517.1_full.fna,complete
+B_infantis_ATCC15697,Bifidobacterium longum subsp. infantis,probiotic,NC_011593.1,infant formula,,yes,True,2832748,1,59.86,data\genomes\probiotic\Bifidobacterium_longum_subsp._infantis\NC_011593.1_full.fna,complete
+P_pentosaceus_ATCC25745,Pediococcus pentosaceus,probiotic,NC_008525.1,fermented foods,,yes,True,1832387,1,37.36,data\genomes\probiotic\Pediococcus_pentosaceus\NC_008525.1_full.fna,complete
+L_mesenteroides_ATCC8293,Leuconostoc mesenteroides subsp. mesenteroides,probiotic,NC_008531.1,fermented foods,,yes,True,2075763,2,37.67,data\genomes\probiotic\Leuconostoc_mesenteroides_subsp._mesenteroides\NC_008531.1_full.fna,complete
+L_lactis_cremoris_MG1363,Lactococcus lactis subsp. cremoris,probiotic,NC_009004.1,dairy ferments,,yes,True,2529478,1,35.75,data\genomes\probiotic\Lactococcus_lactis_subsp._cremoris\NC_009004.1_full.fna,complete
+L_fermentum_IFO3956,Limosilactobacillus fermentum,probiotic,NC_010610.1,supplements,,yes,True,2098685,1,51.47,data\genomes\probiotic\Limosilactobacillus_fermentum\NC_010610.1_full.fna,complete
+L_helveticus_DPC4571,Lactobacillus helveticus,probiotic,NC_010080.1,cheese cultures,,yes,True,2080931,1,37.08,data\genomes\probiotic\Lactobacillus_helveticus\NC_010080.1_full.fna,complete
+L_crispatus_ST1,Lactobacillus crispatus,probiotic,NC_014106.1,supplements,,yes,True,2043161,1,36.88,data\genomes\probiotic\Lactobacillus_crispatus\NC_014106.1_full.fna,complete
+L_sakei_23K,Latilactobacillus sakei,probiotic,NC_007576.1,meat starter,,yes,True,1884661,1,41.26,data\genomes\probiotic\Latilactobacillus_sakei\NC_007576.1_full.fna,complete
+E_faecium_Aus0004,Enterococcus faecium,pathogen,NC_017022.1,,clinical bloodstream VRE vanB,,True,2955294,1,38.36,data\genomes\pathogen\Enterococcus_faecium\NC_017022.1.fna,complete
+E_faecalis_V583,Enterococcus faecalis,pathogen,NC_004668.1,,clinical VRE vanB,,True,3359974,4,37.38,data\genomes\pathogen\Enterococcus_faecalis\NC_004668.1_full.fna,draft
+E_faecalis_OG1RF,Enterococcus faecalis,pathogen,NC_017316.1,,oral reference strain,,True,2739625,1,37.75,data\genomes\pathogen\Enterococcus_faecalis\NC_017316.1_full.fna,complete
+K_pneumoniae_HS11286,Klebsiella pneumoniae,pathogen,NC_016845.1,,clinical ESBL KPC,,True,5682322,7,57.12,data\genomes\pathogen\Klebsiella_pneumoniae\NC_016845.1_full.fna,draft
+K_pneumoniae_MGH78578,Klebsiella pneumoniae,pathogen,NC_009648.1,,clinical,,True,5694894,6,57.15,data\genomes\pathogen\Klebsiella_pneumoniae\NC_009648.1_full.fna,draft
+E_coli_K12_MG1655,Escherichia coli,pathogen,NC_000913.3,,laboratory reference,,True,4641652,1,50.79,data\genomes\pathogen\Escherichia_coli\NC_000913.3_full.fna,complete
+E_coli_O157H7_Sakai,Escherichia coli O157 H7,pathogen,NC_002695.2,,clinical EHEC,,True,5594605,3,50.48,data\genomes\pathogen\Escherichia_coli_O157_H7\NC_002695.2_full.fna,complete
+S_enterica_LT2,Salmonella enterica serovar Typhimurium,pathogen,NC_003197.2,,reference,,True,4951383,2,52.24,data\genomes\pathogen\Salmonella_enterica_serovar_Typhimurium\NC_003197.2_full.fna,complete
+Shigella_flexneri_2a_301,Shigella flexneri,pathogen,NC_004337.2,,clinical,,True,4828820,2,50.65,data\genomes\pathogen\Shigella_flexneri\NC_004337.2_full.fna,complete
+Enterobacter_cloacae_ATCC13047,Enterobacter cloacae subsp. cloacae,pathogen,NC_014121.1,,clinical,,True,5598796,3,54.58,data\genomes\pathogen\Enterobacter_cloacae_subsp._cloacae\NC_014121.1_full.fna,complete
+Proteus_mirabilis_HI4320,Proteus mirabilis,pathogen,NC_010554.1,,clinical,,True,4099895,2,38.88,data\genomes\pathogen\Proteus_mirabilis\NC_010554.1_full.fna,complete
+C_difficile_630,Clostridioides difficile,pathogen,NC_009089.1,,clinical,,True,4298133,2,29.06,data\genomes\pathogen\Clostridioides_difficile\NC_009089.1_full.fna,complete
+C_perfringens_str13,Clostridium perfringens,pathogen,NC_003366.1,,reference,,True,3085740,2,28.51,data\genomes\pathogen\Clostridium_perfringens\NC_003366.1_full.fna,complete
+S_aureus_NCTC8325,Staphylococcus aureus,pathogen,NC_007795.1,,reference,,True,2821361,1,32.87,data\genomes\pathogen\Staphylococcus_aureus\NC_007795.1_full.fna,complete
+S_aureus_N315,Staphylococcus aureus,pathogen,NC_002745.2,,clinical MRSA,,True,2839469,2,32.81,data\genomes\pathogen\Staphylococcus_aureus\NC_002745.2_full.fna,complete
+S_aureus_Mu50,Staphylococcus aureus,pathogen,NC_002758.2,,clinical VISA,,True,2903636,2,32.84,data\genomes\pathogen\Staphylococcus_aureus\NC_002758.2_full.fna,complete
+L_monocytogenes_EGDe,Listeria monocytogenes,pathogen,NC_003210.1,,reference,,True,2944528,1,37.98,data\genomes\pathogen\Listeria_monocytogenes\NC_003210.1_full.fna,complete
+S_agalactiae_2603VR,Streptococcus agalactiae,pathogen,NC_004116.1,,clinical,,True,2160267,1,35.65,data\genomes\pathogen\Streptococcus_agalactiae\NC_004116.1_full.fna,complete
+P_aeruginosa_PAO1,Pseudomonas aeruginosa,pathogen,NC_002516.2,,reference,,True,6264404,1,66.56,data\genomes\pathogen\Pseudomonas_aeruginosa\NC_002516.2_full.fna,complete
+A_baumannii_ATCC17978,Acinetobacter baumannii,pathogen,NC_009085.1,,clinical reference,,True,3976747,1,38.94,data\genomes\pathogen\Acinetobacter_baumannii\NC_009085.1.fna,complete
+S_maltophilia_K279a,Stenotrophomonas maltophilia,pathogen,NC_010943.1,,clinical,,True,4851126,1,66.32,data\genomes\pathogen\Stenotrophomonas_maltophilia\NC_010943.1_full.fna,complete
+C_jejuni_NCTC11168,Campylobacter jejuni,pathogen,NC_002163.1,,clinical enteric,,True,1641481,1,30.55,data\genomes\pathogen\Campylobacter_jejuni\NC_002163.1_full.fna,complete
+H_pylori_26695,Helicobacter pylori,pathogen,NC_000915.1,,clinical gastric,,True,1667867,1,38.87,data\genomes\pathogen\Helicobacter_pylori\NC_000915.1.fna,complete
+B_fragilis_NCTC9343,Bacteroides fragilis,pathogen,NC_003228.3,,clinical anaerobe,,True,5241700,2,43.11,data\genomes\pathogen\Bacteroides_fragilis\NC_003228.3_full.fna,complete
+V_cholerae_N16961,Vibrio cholerae,pathogen,NC_002505.1,,clinical enteric,,True,4033464,2,47.49,data\genomes\pathogen\Vibrio_cholerae\NC_002505.1_full.fna,complete

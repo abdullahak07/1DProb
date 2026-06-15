@@ -1,0 +1,26 @@
+species,Negligible,Low,Medium,High
+Acinetobacter baumannii,0,18,0,1
+Bacillus subtilis,0,10,0,0
+Bacteroides fragilis,0,1,0,0
+Bifidobacterium adolescentis,0,1,0,0
+Bifidobacterium bifidum,0,1,0,0
+Campylobacter jejuni,0,5,0,0
+Clostridioides difficile,0,6,0,0
+Clostridium perfringens,0,1,0,0
+Enterobacter cloacae subsp. cloacae,0,2,0,1
+Enterococcus faecalis,0,16,0,0
+Enterococcus faecium,0,9,0,0
+Escherichia coli,0,39,2,0
+Escherichia coli O157 H7,0,40,0,0
+Helicobacter pylori,0,1,0,0
+Klebsiella pneumoniae,0,19,3,0
+Lactococcus lactis subsp. lactis,0,1,0,0
+Listeria monocytogenes,0,3,0,0
+Proteus mirabilis,0,2,0,0
+Pseudomonas aeruginosa,0,49,0,0
+Salmonella enterica serovar Typhimurium,0,7,0,0
+Shigella flexneri,0,17,10,0
+Staphylococcus aureus,0,49,6,2
+Stenotrophomonas maltophilia,0,9,0,0
+Streptococcus agalactiae,0,3,0,0
+Vibrio cholerae,0,4,0,0

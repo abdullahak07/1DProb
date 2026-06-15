@@ -1,0 +1,4 @@
+comparison,pathogen_yes,pathogen_no,probiotic_yes,probiotic_no,odds_ratio,p_value
+High/Medium risk,45,315,0,13,inf,0.3806082899433012
+plasmid-associated,28,332,0,13,inf,0.6104673112644587
+IS-flanked both sides,15,345,0,13,inf,1.0
