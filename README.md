@@ -52,7 +52,7 @@ probiotic-associated genomes. Per-strain ARG burden differed sharply
 shared across groups** at ≥95% nucleotide identity (0 of 175 gene-sharing edges).
 
 <p align="center">
-  <img src="figs/fig3_burden.png" width="720" alt="Per-strain burden and High-risk localisation by group">
+  <img src="figs/fig3_burden.pdf" width="720" alt="Per-strain burden and High-risk localisation by group">
 </p>
 
 **Every priority call carries an explicit validation status.** Identities were
