@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-research-orange.svg)]()
-[![Manuscript](https://www.biorxiv.org/content/10.64898/2026.06.11.731541v1)](https://img.shields.io/badge/manuscript-in%20preparation-lightgrey.svg)
+[![Preprint](https://img.shields.io/badge/preprint-bioRxiv-red.svg)](https://www.biorxiv.org/content/10.64898/2026.06.11.731541v1)
 
 > **Chromosome-only genome screening undercounts mobile antibiotic-resistance cargo:**
 > a matched full-assembly comparison of probiotic-associated and pathogen reference genomes.
