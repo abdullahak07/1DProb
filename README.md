@@ -25,7 +25,7 @@ pathogen/comparator), screening the **full assembly** instead of the
 **chromosome only** changed the picture dramatically:
 
 <p align="center">
-  <img src="figs/fig2_compare.png" width="820" alt="Full-assembly vs chromosome-only comparison">
+  <img src="figs/fig2_compare.pdf" width="820" alt="Full-assembly vs chromosome-only comparison">
 </p>
 
 | Metric | Chromosome-only | Full assembly | Δ |
@@ -61,7 +61,7 @@ discordant and unconfirmed calls are reported separately rather than as a single
 "validated" number.
 
 <p align="center">
-  <img src="figs/fig4_highrisk.png" width="820" alt="High-risk ARG loci and validation status">
+  <img src="figs/fig4_highrisk.pdf" width="820" alt="High-risk ARG loci and validation status">
 </p>
 
 | Validation category | Loci |
@@ -78,7 +78,7 @@ discordant and unconfirmed calls are reported separately rather than as a single
 ## Workflow
 
 <p align="center">
-  <img src="figs/fig1_workflow.png" width="760" alt="Screening workflow">
+  <img src="figs/fig1_workflow.pdf" width="760" alt="Screening workflow">
 </p>
 
 1. **Retrieve** genomes from NCBI RefSeq (full assembly *and* matched chromosome-only).
@@ -159,9 +159,9 @@ py make_figures.py --results results_scale50 --sota results_sota --out figs   # 
 
 | Strain × risk heatmap (S4) | Gene-sharing network (S5) |
 |:---:|:---:|
-| <img src="figs/figS4_strain_heatmap.png" width="370"> | <img src="figs/figS5_sharing_network.png" width="330"> |
+| <img src="figs/figS4_strain_heatmap.pdf" width="370"> | <img src="figs/figS5_sharing_network.png" width="330"> |
 | **Per-strain burden (S6)** | **Drug-class by group (S7)** |
-| <img src="figs/figS6_burden_boxplot.png" width="360"> | <img src="figs/figS7_drugclass.png" width="370"> |
+| <img src="figs/figS6_burden_boxplot.pdf" width="360"> | <img src="figs/figS7_drugclass.png" width="370"> |
 
 ---
 
