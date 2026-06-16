@@ -78,7 +78,7 @@ discordant and unconfirmed calls are reported separately rather than as a single
 ## Workflow
 
 <p align="center">
-  <img src="figs/fig1_workflow.png" width="760" alt="Screening workflow">
+  <img src="figs/fig1_workflow1.png" width="760" alt="Screening workflow">
 </p>
 
 1. **Retrieve** genomes from NCBI RefSeq (full assembly *and* matched chromosome-only).
